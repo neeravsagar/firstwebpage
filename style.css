@@ -1,0 +1,82 @@
+body{
+margin:0;
+padding-top:800px;
+text-align:center;
+}
+#welcome{
+position:absolute;
+overflow:hidden;
+height:800px;
+color:white;
+left:0;
+right:0;
+top:0;
+bottom:0;
+opacity:0.83;
+background:linear-gradient(#c4c8ff 0%,#000875 100%);
+    display:table;
+    width:100%;
+    height:100%;
+}
+.parallax-inner{
+    display:table-cell;
+    position:relative;
+    text-align:center;
+    vertical-align:middle;
+}
+h1{
+    font-size:40px;
+    line-height:1.2;
+    font-family:cursive;
+    font-weight:300;
+}
+h2{
+    font-size:40px;
+    line-height:1.2;
+    font-family:cursive;
+    font-weight:300;
+}
+#name{
+    font-size:40px;
+    line-height:1.2;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight:300;
+}
+.profile{
+    width:175px;
+    border-radius:50%;
+    margin-bottom:50px;
+}
+.menu{
+    list-style:none;
+    font-family:cursive;
+    position: fixed;
+    top:10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.Links{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    float: left;
+    color:blue;
+    font-size:20px;
+    font-family:cursive;
+}
+.links:hover{
+    background-color: lightskyblue;
+}
+#bio{
+padding:50;
+text-align:center;
+}
+p{
+    color:deepskyblue;
+    max-width:450px;
+    margin:20px auto;
+    font-size:17px;
+    line-height:1.3;
+}
